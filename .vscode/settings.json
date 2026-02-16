@@ -1,0 +1,31 @@
+{
+  "cucumberautocomplete.steps": [
+    "src/steps/*.ts",
+    "src/steps/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.stepRegExps": [
+    "Given\\(/(.*)/, .*",
+    "When\\(/(.*)/, .*", 
+    "Then\\(/(.*)/, .*",
+    "And\\(/(.*)/, .*",
+    "But\\(/(.*)/, .*"
+  ],
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{string}",
+      "value": "([\"'])(?:(?=(\\\\?))\\2.)*?\\1"
+    },
+    {
+      "parameter": "{float}",
+      "value": "-?\\d*\\.?\\d+"
+    },
+    {
+      "parameter": "{int}",
+      "value": "-?\\d+"
+    }
+  ],
+  "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
+  "cucumberautocomplete.stepRegExpsMatchingRules": "string"
+}

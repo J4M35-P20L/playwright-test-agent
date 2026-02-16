@@ -1,0 +1,73 @@
+{
+  "users": {
+    "walkthrough": {
+      "username": "Walk-thru@2026",
+      "password": "Walk-thru@2026"
+    },
+    "default": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "urls": {
+    "local": "https://mobile-walkthrough.devable.io/",
+    "dev": "https://dev.storedgefms.com/company/403/facility/3544/dashboard",
+    "staging": "",
+    "prod": "",
+    "edge": "https://dev.storedgefms.com/company/403/facility/3544/dashboard"
+  },
+  "companies": {
+    "primary": "storEDGE Demo",
+    "secondary": "storEDGE"
+  },
+  "facilities": {
+    "primary": {
+      "name": "CK Self Storage",
+      "fullName": "CK Self Storage Waldo, MO",
+      "location": "Waldo, MO"
+    },
+    "secondary": {
+      "name": "Sample Facility 1", 
+      "fullName": "Sample Facility 1 Westwood, AK",
+      "location": "Westwood, AK"
+    }
+  },
+  "units": {
+    "primary": "Testing3",
+    "testing": "Testing3",
+    "sample": "import"
+  },
+  "messages": {
+    "testNote": "This is a test note for Testing3 unit at CK Self Storage facility under storEDGE Demo company.",
+    "playwrightTest": "Test Playwright",
+    "defaultNote": "Automated test note created by Playwright"
+  },
+  "timeouts": {
+    "pageLoad": 3000,
+    "elementWait": 20000,
+    "login": 120000,
+    "sso": 15000
+  },
+  "selectors": {
+    "buttons": {
+      "selectCompany": "Select Company",
+      "selectFacility": "Select Facility", 
+      "selectFacilityDisabled": "Select a company first",
+      "go": "Go",
+      "addNote": "Add Note",
+      "save": "Save",
+      "continue": "Continue",
+      "signIn": "SIGN IN",
+      "skipForNow": "Skip for Now"
+    },
+    "links": {
+      "units": "Units",
+      "groups": "Groups"
+    },
+    "textboxes": {
+      "usernameEmail": "Username or email",
+      "password": "password",
+      "noteInput": "Enter your note here..."
+    }
+  }
+}
